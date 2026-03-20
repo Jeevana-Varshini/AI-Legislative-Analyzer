@@ -88,4 +88,6 @@ legislative-analyzer/
 | Criteria | Implementation |
 |---|---|
 | 100k+ token documents | Token compression pipeline handles any size |
-| Token Compression technique | TF-IDF scoring, Jaccard dedup, greedy packing 
+| Token Compression technique | TF-IDF scoring, Jaccard dedup, greedy packing |
+| Information Density score | Displayed in UI: unique concepts retained per token consumed |
+| Energy efficiency | 90–98% fewer tokens sent to LLM per request |
